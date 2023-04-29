@@ -14,6 +14,7 @@
             <Color x:Key="bgColor">#C0C0C0</Color>
             <Style x:Key="baseLabelStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="{StaticResource fontSize}"/>
+                <Setter Property="TextColor" Value="{DynamicResource fgColor}"/>
             </Style>
             <Style x:Key="infoLabelStyle" TargetType="Label" BasedOn="{StaticResource baseLabelStyle}">
                 <Setter Property="FontAttributes" Value="Bold"/>
